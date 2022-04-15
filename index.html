@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
     <!-- Fonts -->
     <!-- JavaScript file -->
     <script src="scripts.js" defer></script>
@@ -14,6 +14,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header class="headline">
+        <h1>library</h1>
+    </header>
+    <div class="form-div">
+        <form action="/" method="post" id="input-form">
+            <label for="title">Title :</label>
+            <input type="text" id="title" required placeholder="Title..."><br>
+            <label for="author">Author :</label>
+            <input type="text" id="author" required placeholder="Author..."> <br>
+            <label for="pages" id="pages">Pages :</label>
+            <input type="number" id="pages" required placeholder="No. of pages..."> <br>
+            <label for="status">Did you read?</label>
+            <input type="checkbox" id="status"> <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div id="librarySection"></div>
 </body>
 </html>

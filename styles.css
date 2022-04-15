@@ -1,3 +1,25 @@
-body {
-    background-color: red;
+body{
+    margin: 0;
+    height: 100%;
+
+}
+
+.headline {
+    border: 1px solid grey;
+    margin: 0 0 20px 0;
+    padding-left: 30px;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+
+#input-form {
+    height: max-content;
+    width: max-content;
+    border: 1px solid black;
+    line-height: 1.9;
+    padding: 10px;
 }
